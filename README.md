@@ -23,17 +23,19 @@ if you have a bug fix, the best way to help would be to :
 * Fix and commit the bugs, then push your version to your Github account
 * Click "pull request" at the top of my Github page
 
-You can [report bugs here][issues] or [send me a message on Github][mail_me]. 
+You can [report bugs here][issues]. 
 
 You can [watch plxQuickSearch][github_watch] for updates or [follow me on Github][github_follow] 
 and [on Twitter][twitter_follow].
 
 ## License
-plxQuickSearch under WTFPL : <http://www.wtfpl.net/>
+plxQuickSearch under WTFPL : <http://www.wtfpl.net/> 
+
 Original quicksearch jQuery plugin under the same licenses as the jQuery library itself : <http://docs.jquery.com/License>
 
 ## Credits
-[PluXML][pluxml_site] a CMS with XML inside
+[PluXML][pluxml_site] a CMS with XML inside 
+
 Original jQuery quicksearch is made by [Rik Lomas][rik_site] check his [Github][rik_github]
 
 [pluxml_site]: http://www.pluxml.org/
