@@ -3,8 +3,8 @@
  * Plugin QuickSearch
  *
  * @package	PLX
- * @version	1.0
- * @date	05/04/2013
+ * @version	1.1
+ * @date	07/04/2013
  * @author	i M@N
  **/
  

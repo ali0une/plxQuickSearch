@@ -1,5 +1,5 @@
 <?php if(!defined('PLX_ROOT')) exit; ?>
-
+<!-- 07/04/2013 -->
 <h2>Aide</h2>
 <p>
 Editer pluxml/core/admin/medias.php et modifier ligne 232 :

@@ -4,7 +4,7 @@
 	<author><![CDATA[i M@N]]></author>
 	<version>1.1</version>
 	<date>07/04/2013</date>
-	<site>http://imanweb.free.fr</site>
+	<site>http://imanweb.free.fr/PluXML/</site>
 	<description><![CDATA[Ajoute le plugin jQuery QuickSearch dans l'administration. Nécessite le plugin jQuery : http://wiki.pluxml.org/index.php?page=Plugins+officiels]]></description>
 	<requirements></requirements>
 </document>
