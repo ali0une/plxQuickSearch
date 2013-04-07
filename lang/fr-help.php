@@ -13,6 +13,7 @@ en :
 #/Hook plxQuickSearch Plugin
 			&lt;/p&gt;</pre>
 </p>
+
 <p>
 Editer pluxml/core/admin/index.php et modifier ligne 144 :
 <br />
@@ -24,4 +25,30 @@ en :
 eval($plxAdmin->plxPlugins->callHook('AdminMediasQuickSearch'));
 #/Hook plxQuickSearch Plugin
 	echo '&lt;/p&gt;';</pre>
+</p>
+
+<p>
+Editer pluxml/plugins/plxeditor/medias.php et modifier ligne 279 :
+<br />
+<pre>				&lt;input class="button submit" type="submit" name="btn_action" value="&lt;?php echo L_OK &gt;?" /&gt;
+			&lt;/p&gt;</pre>
+en :
+<pre>				&lt;input class="button submit" type="submit" name="btn_action" value="&lt;?php echo L_OK &gt;?" /&gt;
+# Hook plxQuickSearch Plugin
+&lt;?php eval($plxAdmin->plxPlugins->callHook('AdminMediasQuickSearch')); ?&gt;
+#/Hook plxQuickSearch Plugin
+			&lt;/p&gt;</pre>
+</p>
+
+<p>
+Editer pluxml/plugins/plxtoolbar/medias.php et modifier ligne 278 :
+<br />
+<pre>				&lt;input class="button submit" type="submit" name="btn_action" value="&lt;?php echo L_OK &gt;?" /&gt;
+			&lt;/p&gt;</pre>
+en :
+<pre>				&lt;input class="button submit" type="submit" name="btn_action" value="&lt;?php echo L_OK &gt;?" /&gt;
+# Hook plxQuickSearch Plugin
+&lt;?php eval($plxAdmin->plxPlugins->callHook('AdminMediasQuickSearch')); ?&gt;
+#/Hook plxQuickSearch Plugin
+			&lt;/p&gt;</pre>
 </p>

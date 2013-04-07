@@ -18,6 +18,11 @@ $this->addHook('AdminMediasQuickSearch', 'AdminMediasQuickSearch');
 public function AdminMediasQuickSearch() {
 echo '&nbsp;
 <input type="text" id="qs" placeholder="'.$this->getLang('L_RECHERCHER').'" />
+<script type="text/javascript">
+/* <![CDATA[ */
+	!window.jQuery && document.write(\'<script type="text/javascript" src="<?php echo PLX_PLUGINS;?>jquery/jquery.min.js"><\/script>\');
+/* !]]> */
+</script>
 <script type="text/javascript" src="'.PLX_PLUGINS.'plxQuickSearch/jquery.quicksearch.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
